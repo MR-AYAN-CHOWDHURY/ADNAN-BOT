@@ -33,7 +33,7 @@ module.exports = {
           const ask1 = parts[0].trim();
           const ans = parts[1].trim();
 
-         const res =  await axios.post(`https://65.109.80.126:20409/teach?ask=hi&ans=hlw`, {
+         const res =  await axios.post(`https://adnan-simsimi-apis.onrender.com/teach`, {
             input: ask1,
             response: ans,
           });
@@ -55,7 +55,7 @@ module.exports = {
       }
 
       
-      const response = await axios.post(`https://65.109.80.126:20409/sim?sim=hi`, {
+      const response = await axios.post(`https://adnan-simsimi-apis.onrender.com/chat`, {
         input: msg,
         lang: 'en',
       });
