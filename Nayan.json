@@ -10,7 +10,7 @@
   "banMsg": false,
   "adminOnlyMsg": false,
   "BOTNAME": "⇛⌘ 𝐀𝐃𝐍𝐀𝐍 𝐑𝐎𝐁𝐎𝐓 𝐕 𝟐.𝟎 ⌘⇚",
-  "PREFIX": ".",
+  "PREFIX": "!",
   "OPERATOR": [
     "61571458173280",
     "100000959749712"
