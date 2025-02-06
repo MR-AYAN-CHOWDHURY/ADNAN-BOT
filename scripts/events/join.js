@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি আদনান তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("𝗜𝗱𝗼𝗹𝗹 𝗯𝗼𝘁 𝗷𝗼𝗶𝗻 𝘀𝘂𝘀𝗰𝗲𝘀𝗳𝘂𝗹𝗹 <👽", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :𝗩𝗘𝗫_𝗔𝗗𝗡𝗔𝗡-404
+DEVELOPER :𝗜𝗗𝗢𝗟𝗟 𝗔𝗡𝗧𝗛𝗢𝗡𝗬
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/VEX.ADNAN.404
+https://www.facebook.com/Idoll.Anthony
 
 🔵WHATSAPP NUMBER: wa.me/+8801853557896
 
-🟢SUPPORT EMAIL: www.vexadnan404@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: www.idollanthony@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
