@@ -25,9 +25,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 		const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (config.PREFIX == null) {
-        return out(`bot prefix : ${global.config.PREFIX}`)
+        return out(`𝗜𝗗𝗢𝗟𝗟 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫 : ${global.config.PREFIX}`)
       }
-      else return out(`bot prefix : ${global.config.PREFIX}`)
+      else return out(`𝗜𝗗𝗢𝗟𝗟 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫 : ${global.config.PREFIX}`)
     }
 
   });
