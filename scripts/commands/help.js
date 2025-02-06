@@ -62,9 +62,9 @@ module.exports. run = function({ api, event, args, getText }) {
     i = startSlice;
     const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
   
-    for (let item of returnArray) msg += `   │  ${++i} 🎗️ ${item}\n`;
+    for (let item of returnArray) msg += `   │  ${++i} 𒊹︎︎︎➪ ${item}\n`;
     const randomText = [ "hy bhy baby","g","h"];
-    const text = `▬▬▬▬▬▬▬▬▬▬▬▬\n⭓════════════⭓\n✿ 𝐏𝐀𝐆𝐄   (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})✿\n╰──────╯\n𝗧𝘆𝗽𝗲: °${prefix}𝗛𝗲𝗹𝗽°\n𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${arrayInfo.length} \n✿▬▬▬▬▬▬▬▬▬▬▬▬✿  \n⭓════════════⭓\n⭓ADNAN-ROBOT⭓\n⭓════════════⭓\n`;
+    const text = `▬▬▬▬▬▬▬▬▬▬▬▬\n⭓════════════⭓\n✿ 𝐏𝐀𝐆𝐄   (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})✿\n╰──────╯\n𝗧𝘆𝗽𝗲: °${prefix}𝗛𝗲𝗹𝗽°\n𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${arrayInfo.length} \n✿▬▬▬▬▬▬▬▬▬▬▬▬✿  \n⭓════════════⭓\n⭓𝗜𝗗𝗢𝗟𝗟-𝗕𝗢𝗧⭓\n⭓════════════⭓\n`;
     return api.sendMessage(msg  + text, threadID, async (error, info) => {
 			if (autoUnsend) {
 				await new Promise(resolve => setTimeout(resolve, delayUnsend * 10000));
